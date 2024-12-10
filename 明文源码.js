@@ -24,7 +24,7 @@ let go2Socks5s = [
 	'*cloudatacdn.com',
 	'*.loadshare.org',
 ];
-let addresses = [159.75.166.84#cfnat];
+let addresses = [];
 let addressesapi = [];
 let addressesnotls = [];
 let addressesnotlsapi = [];

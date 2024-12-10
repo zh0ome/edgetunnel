@@ -1261,7 +1261,7 @@ async function 生成配置信息(userID, hostName, sub, UA, RproxyIP, _url, env
 
 			return randomIP.join('.');
 		}
-		addresses = addresses.concat('127.0.0.1:1234#CFnat');
+		addresses = addresses.concat('159.75.166.84#cfnat');
 		if (hostName.includes(".workers.dev")) {
 			addressesnotls = addressesnotls.concat(cfips.map(cidr => generateRandomIPFromCIDR(cidr) + '#CF随机节点'));
 		} else {
